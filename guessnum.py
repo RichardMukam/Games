@@ -23,4 +23,4 @@ while True :
   elif player_guess < rand_num:
     print("The number is higher")
   elif player_guess > rand_num:
-    print("The number is lower")
+    print("The number islower")
