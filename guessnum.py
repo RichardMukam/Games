@@ -9,7 +9,7 @@ max_guesses = round(math.log(100 - 0 + 1, 2))
 print("You have",max_guesses,"chances to guess the number!\n")
 count = 0
 while True :
-  count = count + 1
+  count += 1
  
   if count > max_guesses:
     print("You've exceeded the number of guesses.")
